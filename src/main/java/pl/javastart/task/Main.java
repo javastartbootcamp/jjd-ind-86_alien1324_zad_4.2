@@ -18,6 +18,6 @@ public class Main {
                 task3.getName(), task3.getInfo(), task3.highPriority(), task3.mediumPriority(), task3.lowPriority());
         System.out.printf("%s%n%s%nPriorytet wysoki %b%nPriorytet normalny %b%nPriorytet niski %b%n%n",
                 task4.getName(), task4.getInfo(), task4.highPriority(), task4.mediumPriority(), task4.lowPriority());
-        System.out.printf("Kto pracuje przy zadaniu %s:%n%s", task1.getName(), task1.getWorker().firstName);
+        System.out.printf("Kto pracuje przy zadaniu %s:%n%s", task1.getName(), task1.getWorker().getFirstName());
     }
 }
